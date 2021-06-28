@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+body{
+    background: rgb(224,255,249);
+background: linear-gradient(180deg, rgba(224,255,249,1) 0%, rgba(235,249,247,1) 0%, rgba(255,255,255,1) 93%) no-repeat;
+    font-family: 'Poppins' !important;
+    font-size:"22px";
+}
+.highlighted-text{
+    color:cornflowerblue;
+}
+.container{
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    width: 65%;
+}
+.image-2{
+    width: 45%;
+}
+
+.form{
+    width: 75%;
+    padding-top:5px;
+}
+.form-item{
+    margin:10px;
+}
+.form-item-text{
+    width: 55%;
+    margin:10px;
+}
+.form-item-email{
+    width: 45%;
+    margin:10px;
+}
+.form .dropdown-list{
+    padding: 10px;
+    width: 100%;
+    font-family: 'Poppins';
+    border-color: lightgray;
+    border: 0.2;
+    border-radius: 0.3em;
+}
+
+.default-option{
+    color: gray;
+}
+::-webkit-scrollbar {
+    padding-right: 0.2cm;
+    width: 5px;
+  }
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background:gray;
+    border-radius: 10px;
+  }
+
+.dropdown-list option{
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.text-info-form{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-info-form .name-input{
+    -webkit-box-shadow: none;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Poppins';
+    border-color: lightgray;
+    border: 0.5px solid lightgray;
+    border-radius: 0.3em;
+}
+.text-info-form .email-input{
+    -webkit-box-shadow: none;
+    width: 105%;
+    padding: 10px;
+    font-family: 'Poppins';
+    border: 0.5px solid lightgray;
+    border-radius: 0.3em;
+}
+
+.button{
+    margin: 10px;
+    padding: 10px;
+    width: 130px;
+    font-family: 'Poppins';
+    background-color: gold;
+    color: black;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#202444;
+    height: 300px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    margin-top:10px;
+}
+.image-3{
+    width: 40%;
+    padding: 5%;
+}
+
+.big-text{
+    font-size: 28px;
+}
+.banner-text{
+    padding: 5%;
+    font-size: 18px;
+    width: 60%;
+    color: beige;
+    text-align: center;
+}
+
+.specialite-dropdown {
+        position: relative;
+}
+
+.banner-img{
+    height: 80%;
+    width: 100%;
+    border-radius: 0.5em;
+}
